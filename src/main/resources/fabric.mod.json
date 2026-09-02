@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pixelforge",
+  "version": "1.0.0",
+  "name": "PixelForge Client",
+  "description": "A Lunar-style Fabric client for 1.21.1",
+  "authors": ["ViperXC132"],
+  "contact": {
+    "sources": "https://github.com/ViperXC132"
+  },
+  "license": "MIT",
+  "icon": "assets/pixelforge/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pixelforge.PixelForgeClient"
+    ]
+  },
+  "mixins": [
+    "pixelforge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
